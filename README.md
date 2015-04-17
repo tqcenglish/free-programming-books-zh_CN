@@ -524,3 +524,8 @@
 ### 测试相关
 
 * [移动APP自动化测试优秀框架Appium API Reference V1.2.0 CN](http://appium.io/slate/cn/v1.2.0/)
+
+
+### 新添加
+* [制造开源软件](http://producingoss.com/zh/index.html)
+* [开源软件架构](http://www.ituring.com.cn/book/1143)
