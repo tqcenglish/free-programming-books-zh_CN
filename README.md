@@ -1,7 +1,6 @@
 免费的编程中文书籍索引
 ============================
 
-
 免费的编程中文书籍索引，欢迎投稿。
 
 - 国外程序员在 [stackoverflow](http://stackoverflow.com/a/1713/343194) 推荐的程序员必读书籍，[中文版](http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html "一个合格的程序员应该读过哪些书")。
@@ -21,15 +20,18 @@
 ## 目录
 
 * [语言无关类](#语言无关类)
-  * [优质博客](#优质博客)
   * [操作系统](#操作系统)
   * [智能系统](#智能系统)
+  * [分布式系统](#分布式系统)
+  * [编译原理](#编译原理)
+  * [计算机图形学](#计算机图形学)
   * [WEB服务器](#web服务器)
   * [版本控制](#版本控制)
   * [编辑器](#编辑器)
   * [NoSQL](#nosql)
   * [PostgreSQL](#postgresql)
   * [MySQL](#mysql)
+  * [管理和监控](#管理和监控)
   * [项目相关](#项目相关)
   * [设计模式](#设计模式)
   * [Web](#web)
@@ -60,8 +62,8 @@
   * [Python](#python)
   * [R](#r)
   * [Ruby](#ruby)
+  * [Rust](#rust)
   * [Scala](#scala)
-  * [Scheme](#scheme)
   * [Shell](#shell)
   * [Swift](#swift)
 
@@ -70,17 +72,10 @@
 
 ## 语言无关类
 
-### 优质博客
-
-* [PyTab在线手册中心](http://docs.pythontab.com/)
-* [ImportNew](http://www.importnew.com/)
-* [廖雪峰的官方网站](http://www.liaoxuefeng.com/)
-* [程序员博客墙](http://blogwall.us/zh)
-
 ### 操作系统
 
 * [开源世界旅行手册](http://i.linuxtoy.org/docs/guide/index.html)
-* [鸟哥的Linux私房菜](http://linux.vbird.org/)
+* [鸟哥的Linux私房菜](http://vbird.dic.ksu.edu.tw/)
 * [Linux 系统高级编程](http://sourceforge.net/apps/trac/elpi/wiki/ALP)
 * [The Linux Command Line](http://billie66.github.io/TLCL/index.html) (中英文版)
 * [Linux 设备驱动](http://oss.org.cn/kernel-book/ldd3/index.html) (第三版)
@@ -95,19 +90,28 @@
 * [Linux 命令行(中文版)](http://billie66.github.io/TLCL/book/)
 * [Linux 构建指南](http://works.jinbuguo.com/lfs/lfs62/index.html)
 * [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
+* [Linux Documentation (中文版)](http://tinylab.gitbooks.io/linux-doc)
+* [嵌入式 Linux 知识库 (eLinux.org 中文版)](http://tinylab.gitbooks.io/elinux)
 * [理解Linux进程](https://github.com/tobegit3hub/understand_linux_process)
-* [Linux From Scratch systemd 中文翻译](https://github.com/ryanzz/LFS-systemd-zh_CN)
+* [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 
 #### 智能系统
 * [一步步搭建物联网系统](https://github.com/gmszone/designiot)
 
+### 分布式系统
+* [走向分布式](http://dcaoyuan.github.io/papers/pdfs/Scalability.pdf)
+
+### 编译原理
+* [《计算机程序的结构和解释》公开课 翻译项目](https://github.com/DeathKing/Learning-SICP)
+
+### 计算机图形学
+* [OpenGL 教程](https://github.com/zilongshanren/opengl-tutorials)
 
 ### WEB服务器
 
 * [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html) (淘宝团队出品)
 * [Nginx教程从入门到精通](http://www.ttlsa.com/nginx/nginx-stu-pdf/)(PDF版本，运维生存时间出品)
 * [Apache 中文手册](http://works.jinbuguo.com/apache/menu22/index.html)
-* [Elasticsearch权威指南](http://looly.gitbooks.io/elasticsearch-the-definitive-guide-cn/)
 
 ### 版本控制
 
@@ -127,6 +131,7 @@
 * [GitHub秘籍](http://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/index.html)
 * [Github帮助文档](https://github.com/waylau/github-help)
 * [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
+* [svn 手册](http://svnbook.red-bean.com/nightly/zh/index.html)
 
 ### 编辑器
 
@@ -134,6 +139,7 @@
 * [笨方法学Vimscript 中译本](http://learnvimscriptthehardway.onefloweroneworld.com/)
 * [Vim中文文档](https://github.com/vimcn/vimcdoc)
 * [所需即所获：像 IDE 一样使用 vim](https://github.com/yangyangwithgnu/use_vim_as_ide)
+* [tmux:高效的全键盘开发工具](https://github.com/aqua7regia/tmux-Productive-Mouse-Free-Development_zh)
 
 ### NoSQL
 
@@ -146,15 +152,26 @@
 * [The Little Redis Book](https://github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
 * [Neo4j 简体中文手册 v1.8](http://docs.neo4j.org.cn/)
 * [Neo4j .rb 中文資源](http://neo4j.tw/)
+* [Disque 使用教程](http://disquebook.com)
 
 ### PostgreSQL
 
 * [PostgreSQL 8.2.3 中文文档](http://works.jinbuguo.com/postgresql/menu823/index.html)
+* [PostgreSQL 9.3.1 中文文档](http://www.postgres.cn/docs/9.3/index.html)
 
 ### MySQL
 
-* [MySQL索引背后的数据结构及算法原理](http://www.cnblogs.com/leoo2sk/archive/2011/07/10/mysql-index.html)
+* [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
 * [21分钟MySQL入门教程](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html)
+
+### 管理和监控
+
+* [ELKstack 中文指南](http://kibana.logstash.es)
+* [Mastering Elasticsearch(中文版)](http://udn.yyuap.com/doc/mastering-elasticsearch/)
+* [ElasticSearch 权威指南](https://www.gitbook.com/book/fuxiaopang/learnelasticsearch/details)
+* [Elasticsearch 权威指南（中文版）](http://es.xiaoleilu.com)
+* [Logstash 最佳实践](http://udn.yyuap.com/doc/mastering-elasticsearch/)
+* [Puppet 2.7 Cookbook 中文版](http://bbs.konotes.org/workdoc/puppet-27/)
 
 ### 项目相关
 
@@ -165,8 +182,11 @@
 * [Joel谈软件](http://local.joelonsoftware.com/wiki/Chinese_\(Simplified\))
 * [約耳談軟體(Joel on Software)](http://local.joelonsoftware.com/wiki/%E9%A6%96%E9%A0%81)
 * [Gradle 2 用户指南](https://github.com/waylau/Gradle-2-User-Guide)
+* [Gradle 中文使用文档](http://yuedu.baidu.com/ebook/f23af265998fcc22bcd10da2)
 * [编码规范](https://github.com/ecomfe/spec)
 * [开源软件架构](http://www.ituring.com.cn/book/1143)
+* [GNU make 指南](http://docs.huihoo.com/gnu/linux/gmake.html)
+* [GNU make 中文手册](http://www.yayu.org/book/gnu_make/)
 
 ### 设计模式
 
@@ -180,7 +200,9 @@
 * [浏览器开发工具的秘密](http://jinlong.github.io/2013/08/29/devtoolsecrets/)
 * [Chrome 开发者工具中文手册](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
 * [Chrome扩展开发文档](http://open.chrome.360.cn/extension_dev/overview.html)
-* [Grunt中文文档](http://www.gruntjs.org/)
+* [Grunt中文文档](http://www.gruntjs.net/)
+* [gulp中文文档](http://www.gulpjs.com.cn/docs/)
+* [Gulp 入门指南](https://github.com/nimojs/gulp-book)
 * [Yeoman中文文档](http://yeomanjs.org/)
 * [移动Web前端知识库](https://github.com/AlloyTeam/Mars)
 * [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
@@ -193,8 +215,11 @@
 * [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
 * [w3school教程整理](http://www.flygon.net/archives/427)
 * [Wireshark用户手册](http://man.lupaworld.com/content/network/wireshark/index.html)
+* [一站式学习Wireshark](https://community.emc.com/thread/194901)
 * [HTTP 下午茶](http://happypeter.github.io/tealeaf-http/)
 * [HTTP/2.0 中文翻译](http://yuedu.baidu.com/ebook/478d1a62376baf1ffc4fad99?pn=1)
+* [http2讲解](https://www.gitbook.com/book/ye11ow/http2-explained/details)
+* [3 Web Designs in 3 Weeks](https://www.gitbook.com/book/juntao/3-web-designs-in-3-weeks/details)
 
 ### 大数据
 
@@ -205,6 +230,7 @@
 
 ## 编程艺术
 
+* [编程入门指南](http://huyuefeng.me/intro-to-prog/)
 * [程序员编程艺术](https://github.com/julycoding/The-Art-Of-Programming-by-July)
 * [每个程序员都应该了解的内存知识(译)](http://www.oschina.net/translate/what-every-programmer-should-know-about-memory-part1?print)【第一部分】
 * [取悦的工序：如何理解游戏](http://read.douban.com/ebook/4972883/) (豆瓣阅读，免费书籍)
@@ -222,16 +248,19 @@
 
 * [Android Design(中文版)](http://www.apkbus.com/design/index.html)
 * Google Material Design 正體中文版 ([译本一](http://wcc723.gitbooks.io/google_design_translate/content/style-icons.html) [译本二](https://github.com/1sters/material_design_zh))
+* [Material Design 中文版](http://wiki.jikexueyuan.com/project/material-design/)
 * [Google Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/index.html)
 * [Android学习之路](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/)
 * [Android开发技术前线(android-tech-frontier)](https://github.com/bboyfeiyu/android-tech-frontier)
+* [Point-of-Android](https://github.com/FX-Max/Point-of-Android) Android 一些重要知识点解析整理
 
 ### AWK
 
-* [awk程序设计语言](http://awk.readthedocs.org/en/latest/)
+* [awk程序设计语言](https://github.com/wuzhouhui/awk)
 
 ### C/C++
 
+* [C 语言编程透视](http://tinylab.gitbooks.io/cbook)
 * [C++ 并发编程指南](https://github.com/forhappy/A-Detailed-Cplusplus-Concurrency-Tutorial) ([@傅海平ICT](http://weibo.com/1702076100))
 * [Linux C编程一站式学习](http://akaedu.github.io/book/) (宋劲杉, 北京亚嵌教育研究中心)
 * [CGDB中文手册](https://github.com/leeyiw/cgdb-manual-in-chinese)
@@ -248,6 +277,9 @@
 * [Cmake 实践](http://sewm.pku.edu.cn/src/paradise/reference/CMake%20Practice.pdf) (PDF版)
 * [C++ FAQ LITE(中文版)](http://www.sunistudio.com/cppfaq/)
 * [C++ Primer 5th Answers](https://github.com/Mooophy/Cpp-Primer)
+* [C++ 并发编程(基于C++11)](http://chenxiaowei.gitbooks.io/cpp_concurrency_in_action/)
+* [QT 教程](http://www.kuqin.com/qtdocument/tutorial.html)
+* [C++ Template 进阶指南](https://github.com/wuye9036/CppTemplateTutorial)
 
 ### CSS
 
@@ -255,9 +287,10 @@
 * [通用 CSS 笔记、建议与指导](https://github.com/chadluo/CSS-Guidelines/blob/master/README.md)
 * [CSS参考手册](http://css.doyoe.com/)
 * [Emmet 文档](http://yanxyz.github.io/emmet-docs/)
-* [前端代码规范](http://alloyteam.github.io/code-guide/) (腾讯alloyteam团队)
+* [前端代码规范](http://alloyteam.github.io/CodeGuide/) (腾讯 AlloyTeam 团队)
 * [HTML和CSS编码规范](http://codeguide.bootcss.com/)
 * [Sass Guidelines 中文](http://sass-guidelin.es/zh/)
+* [CSS3 Tutorial 《CSS3 教程》](https://github.com/waylau/css3-tutorial)
 
 ### Dart
 
@@ -280,6 +313,12 @@
 * [Go实战开发](https://github.com/astaxie/Go-in-Action) (当我收录此项目时，作者已经写完第三章，如果读完前面章节觉得有帮助，可以给作者[捐赠](https://me.alipay.com/astaxie)，以鼓励作者的继续创作)
 * [Network programming with Go 中文翻译版本](https://github.com/astaxie/NPWG_zh)
 * [Effective Go](http://www.hellogcc.org/effective_go.html)
+* [Go 语言标准库](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+* [Revel 框架手册](http://gorevel.cn/docs/manual/index.html)
+* [Java程序员的Golang入门指南](http://blog.csdn.net/dc_726/article/details/46565241)
+* [Go命令教程](https://github.com/hyper-carrot/go_command_tutorial)
+* [Go语言博客实践](https://github.com/achun/Go-Blog-In-Action)
+* [Go 官方文档翻译](https://github.com/golang-china/golangdoc.translations)
 
 ### Groovy
 
@@ -315,6 +354,7 @@
 * [REST 实战](https://github.com/waylau/rest-in-action)
 * [Java 编码规范](https://github.com/waylau/java-code-conventions)
 * [Apache MINA 2 用户指南](https://github.com/waylau/apache-mina-2.x-user-guide)
+* [H2 Database 教程](https://github.com/waylau/h2-database-doc)
 
 ### JavaScript
 
@@ -331,6 +371,8 @@
 * [学用 JavaScript 设计模式](http://www.oschina.net/translate/learning-javascript-design-patterns) (开源中国)
 * [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 * [ECMAScript 6 入门](http://es6.ruanyifeng.com/) (作者：阮一峰)
+* [JavaScript Promise迷你书](http://liubin.github.io/promises-book/)
+* [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) (深入JavaScript语言核心机制的系列图书)
 * jQuery
     * [jQuery 解构](http://www.cn-cuckoo.com/deconstructed/jquery.html)
     * [简单易懂的JQuery魔法](http://www.nowamagic.net/librarys/books/contents/jquery)
@@ -365,6 +407,10 @@
     * [Hello Sea.js](http://island205.github.io/HelloSea.js/)
 * React.js
     * [React.js 中文文档](http://reactjs.cn/)
+    * [React webpack-cookbook](https://github.com/fakefish/react-webpack-cookbook)
+    * [React 入门教程](http://fraserxu.me/intro-to-react/)
+* impress.js
+    * [impress.js的中文教程](https://github.com/kokdemo/impress.js-tutorial-in-Chinese)
 * CoffeeScript
     * [CoffeeScript Cookbook](http://island205.github.io/coffeescript-cookbook.github.com/)
     * [The Little Book on CoffeeScript中文版](http://island205.github.io/tlboc/)
@@ -381,14 +427,22 @@
 * [一份不太简短的 LATEX 2ε 介绍](http://www.mohu.org/info/lshort-cn.pdf) （PDF版）
 
 ### LISP
-
-* [ANSI Common Lisp 中文翻譯版](http://acl.readthedocs.org/en/latest/)
+* Common Lisp
+    * [ANSI Common Lisp 中文翻譯版](http://acl.readthedocs.org/en/latest/)
+    * [On Lisp 中文翻译版本](http://www.ituring.com.cn/minibook/862)
+* Scheme
+    * [Yet Another Scheme Tutorial Scheme入门教程](http://deathking.github.io/yast-cn/)
+    * [Scheme语言简明教程](http://songjinghe.github.io/TYS-zh-translation/)
+    * Racket
+        * [Racket book](https://github.com/tyrchen/racket-book)
 
 ### Lua
 
 * [Lua编程入门](https://github.com/andycai/luaprimer)
 * [Lua 5.1 参考手册 中文翻译](http://www.codingnow.com/2000/download/lua_manual.html)
 * [Lua 5.3 参考手册 中文翻译](http://cloudwu.github.io/lua53doc/)
+* [Lua源码欣赏](http://www.codingnow.com/temp/readinglua.pdf)
+* [lua程序设计](http://book.luaer.cn/)
 
 ### Perl
 
@@ -397,9 +451,10 @@
 
 ### PHP
 
+* [PHP 官方手册](http://php.net/manual/zh/)
 * [PHP调试技术手册](http://www.laruence.com/2010/06/21/1608.html)(PDF)
 * [XDebug 2中文手册(译)](http://www.blogkun.com/project.html) (CHM)
-* [PHP之道](http://wulijun.github.io/php-the-right-way/)
+* PHP之道：php-the-right-way ([@wulijun版](http://wulijun.github.io/php-the-right-way/) [PHPHub版](http://laravel-china.github.io/php-the-right-way/))
 * [PHP 最佳实践](https://github.com/justjavac/PHP-Best-Practices-zh_CN)
 * [PHP 开发者实践](http://ryancao.gitbooks.io/php-developer-prepares/content/)
 * [深入理解PHP内核](https://github.com/reeze/tipi)
@@ -430,6 +485,7 @@
 * [可爱的 Python ](http://lovelypython.readthedocs.org/en/latest/)
 * [Python 2.7 官方教程中文版](http://www.pythondoc.com/pythontutorial27/index.html)
 * [Python 3.3 官方教程中文版](http://www.pythondoc.com/pythontutorial3/index.html)
+* [《Python Cookbook》 3rd Edition 翻译](https://github.com/yidao620c/python3-cookbook)
 * [深入 Python 3](http://sebug.net/paper/books/dive-into-python3/)
 * [PEP8 Python代码风格规范](https://code.google.com/p/zhong-wiki/wiki/PEP8)
 * [Google Python 风格指南 中文版](http://zh-google-styleguide.readthedocs.org/en/latest/google-python-styleguide/)
@@ -457,11 +513,13 @@
 * [Python快速教程](http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html)
 * [Python 正则表达式操作指南](http://wiki.ubuntu.org.cn/Python正则表达式操作指南)
 * [python初级教程：入门详解](http://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html)
-* [Python Cookbook 第3版 中文版](http://python3-cookbook.readthedocs.org/zh_CN/latest/)
 * [Twisted 与异步编程入门](http://likebeta.gitbooks.io/twisted-intro-cn/)
 * [TextGrocery 中文 API](http://textgrocery.readthedocs.org/zh/latest/index.html) ( 基于svm算法的一个短文本分类 Python 库 )
 * [Requests: HTTP for Humans](http://requests-docs-cn.readthedocs.org/zh_CN/latest/)
 * [Pillow 中文文档](http://pillow-cn.readthedocs.org/en/latest/#)
+* [PyMOTW 中文版](http://pymotwcn.readthedocs.org/en/latest/index.html)
+* [Python 官方文档中文版](http://data.digitser.net/zh-CN/python_index.html)
+* [Fabric 中文文档](http://fabric-chs.readthedocs.org)
 
 ### R
 
@@ -475,8 +533,14 @@
 * [Ruby on Rails 指南](http://guides.ruby-china.org/)
 * [Ruby on Rails 實戰聖經](http://ihower.tw/rails4/index.html)
 * [Ruby on Rails Tutorial 原书第 3 版](http://railstutorial-china.org/) (本书网页版免费提供，电子版以 PDF、EPub 和 Mobi 格式提供购买，仅售 9.9 美元)
+* [Rails 实践](http://rails-practice.com/content/index.html)
 * [编写Ruby的C拓展](http://wusuopu.gitbooks.io/write-ruby-extension-with-c/content/)
 * [Ruby 源码解读](https://ruby-china.org/topics/22386)
+* [Ruby中的元编程](http://deathking.github.io/metaprogramming-in-ruby/)
+
+### Rust
+
+* [rust book 中文翻译](https://www.gitbook.com/book/kaisery/rust-book-chinese/details) 
 
 ### Scala
 
@@ -484,16 +548,13 @@
 * [Effective Scala](http://twitter.github.io/effectivescala/index-cn.html)(Twitter的Scala最佳实践的中文翻译)
 * [Scala指南](http://zh.scala-tour.com/)
 
-### Scheme
-* [Yet Another Scheme Tutorial Scheme入门教程](http://deathking.github.io/yast-cn/)
-* [Scheme语言简明教程](http://songjinghe.github.io/TYS-zh-translation/)
-
 ### Shell
 
 * [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 * [Bash脚本15分钟进阶教程](http://blog.sae.sina.com.cn/archives/3606)
 * [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 * [shell十三问](https://github.com/wzb56/13_questions_of_shell)
+* [Shell编程范例](http://tinylab.gitbooks.io/shellbook)
 
 ### Swift
 
@@ -520,8 +581,15 @@
 * [Git Cheatsheet Chs](http://gh.amio.us/git-cheatsheet-chs/)
 * [JavaScript语言精粹](https://github.com/qibaoguang/Study-Step-by-Step/blob/master/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/javascript_the_good_parts.md)
 * [制造开源软件](http://producingoss.com/zh/)
-* [提问的智慧](http://www.beiww.com/doc/oss/smart-questions.html)
+* [提问的智慧](http://www.dianbo.org/9238/stone/tiwendezhihui.htm)
 * [Markdown 入门参考](https://github.com/LearnShare/Learning-Markdown)
+* [AsciiDoc简明指南](https://github.com/stanzgy/wiki/blob/master/markup/asciidoc-guide.asciidoc)
+* [背包问题九讲](http://love-oriented.com/pack/)
+* [老齐的技术资料](https://github.com/qiwsir/ITArticles)
+* [前端技能汇总](https://github.com/JacksonTian/fks)
+* [借助开源项目，学习软件开发](https://github.com/zhuangbiaowei/learn-with-open-source)
+* [前端工作面试问题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
+* [leetcode/lintcode题解/算法学习笔记](https://www.gitbook.com/book/yuanbin/algorithm/details)
 
 ### 测试相关
 
